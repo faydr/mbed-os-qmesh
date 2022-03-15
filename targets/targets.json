@@ -3193,7 +3193,8 @@
                 "macro_name": "HSE_VALUE"
             }
         },
-        "components_add": ["FLASHIAP"],
+	"features_add": ["STORAGE"],
+        "components_add": ["FLASHIAP", "SPIF", "QSPIF"],
         "macros_add": [
             "STM32H743xx",
             "EXTRA_IDLE_STACK_REQUIRED",
